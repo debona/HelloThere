@@ -8,6 +8,8 @@
 
 #import "_AppDelegate.h"
 
+#import "_TabBarController.h"
+
 @implementation _AppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -20,7 +22,10 @@
     [DDLog addLogger:[DDTTYLogger sharedInstance]];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    _TabBarController *rootViewController = [[_TabBarController alloc] initWithDefaultNib];
+    self.window.rootViewController = rootViewController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
