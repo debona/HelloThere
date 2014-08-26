@@ -30,3 +30,6 @@
 #endif
 
 
+#pragma mark - UIViewController categories
+
+#import "UIViewController+withDefaultNib.h"

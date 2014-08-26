@@ -23,6 +23,7 @@
 		50797FE719ACF242006CFB17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50797FCB19ACF242006CFB17 /* CoreData.framework */; };
 		50797FEF19ACF242006CFB17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50797FED19ACF242006CFB17 /* InfoPlist.strings */; };
 		50797FF119ACF242006CFB17 /* HelloThereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50797FF019ACF242006CFB17 /* HelloThereTests.m */; };
+		507B7C3719ACFF74004B97DA /* UIViewController+withDefaultNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C3619ACFF74004B97DA /* UIViewController+withDefaultNib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		50797FEC19ACF242006CFB17 /* HelloThereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloThereTests-Info.plist"; sourceTree = "<group>"; };
 		50797FEE19ACF242006CFB17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50797FF019ACF242006CFB17 /* HelloThereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloThereTests.m; sourceTree = "<group>"; };
+		507B7C3519ACFF74004B97DA /* UIViewController+withDefaultNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+withDefaultNib.h"; sourceTree = "<group>"; };
+		507B7C3619ACFF74004B97DA /* UIViewController+withDefaultNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+withDefaultNib.m"; sourceTree = "<group>"; };
 		A002CC68C21C4090BBA2B49D /* Pods-HelloThere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloThere.xcconfig"; path = "Pods/Pods-HelloThere.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +112,8 @@
 		50479DFB19ACFB4F00971B02 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				507B7C3519ACFF74004B97DA /* UIViewController+withDefaultNib.h */,
+				507B7C3619ACFF74004B97DA /* UIViewController+withDefaultNib.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50797FD819ACF242006CFB17 /* _AppDelegate.m in Sources */,
+				507B7C3719ACFF74004B97DA /* UIViewController+withDefaultNib.m in Sources */,
 				50797FDB19ACF242006CFB17 /* HelloThere.xcdatamodeld in Sources */,
 				50797FD419ACF242006CFB17 /* main.m in Sources */,
 			);
