@@ -4,11 +4,14 @@ PODS:
   - CocoaLumberjack/Core (1.9.2)
   - CocoaLumberjack/Extensions (1.9.2):
     - CocoaLumberjack/Core
+  - ionicons (1.5.2)
 
 DEPENDENCIES:
   - CocoaLumberjack (~> 1.9.2)
+  - ionicons (~> 1.5.2)
 
 SPEC CHECKSUMS:
   CocoaLumberjack: 205769c032b5fef85b92472046bcc8b7e7c8a817
+  ionicons: 6be0e241a437a7e69c50cbc8e1700ee8d1535a58
 
 COCOAPODS: 0.33.1
