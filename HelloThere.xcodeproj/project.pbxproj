@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50797FC619ACF242006CFB17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50797FC519ACF242006CFB17 /* Foundation.framework */; };
+		50797FC819ACF242006CFB17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50797FC719ACF242006CFB17 /* CoreGraphics.framework */; };
+		50797FCA19ACF242006CFB17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50797FC919ACF242006CFB17 /* UIKit.framework */; };
+		50797FCC19ACF242006CFB17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50797FCB19ACF242006CFB17 /* CoreData.framework */; };
+		50797FD219ACF242006CFB17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50797FD019ACF242006CFB17 /* InfoPlist.strings */; };
+		50797FD419ACF242006CFB17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50797FD319ACF242006CFB17 /* main.m */; };
+		50797FD819ACF242006CFB17 /* _AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50797FD719ACF242006CFB17 /* _AppDelegate.m */; };
+		50797FDB19ACF242006CFB17 /* HelloThere.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50797FD919ACF242006CFB17 /* HelloThere.xcdatamodeld */; };
+		50797FDD19ACF242006CFB17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50797FDC19ACF242006CFB17 /* Images.xcassets */; };
+		50797FE419ACF242006CFB17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50797FE319ACF242006CFB17 /* XCTest.framework */; };
+		50797FE519ACF242006CFB17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50797FC519ACF242006CFB17 /* Foundation.framework */; };
+		50797FE619ACF242006CFB17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50797FC919ACF242006CFB17 /* UIKit.framework */; };
+		50797FE719ACF242006CFB17 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50797FCB19ACF242006CFB17 /* CoreData.framework */; };
+		50797FEF19ACF242006CFB17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50797FED19ACF242006CFB17 /* InfoPlist.strings */; };
+		50797FF119ACF242006CFB17 /* HelloThereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50797FF019ACF242006CFB17 /* HelloThereTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50797FE819ACF242006CFB17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50797FBA19ACF242006CFB17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50797FC119ACF242006CFB17;
+			remoteInfo = HelloThere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50797FC219ACF242006CFB17 /* HelloThere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloThere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50797FC519ACF242006CFB17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50797FC719ACF242006CFB17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50797FC919ACF242006CFB17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50797FCB19ACF242006CFB17 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		50797FCF19ACF242006CFB17 /* HelloThere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloThere-Info.plist"; sourceTree = "<group>"; };
+		50797FD119ACF242006CFB17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50797FD319ACF242006CFB17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50797FD519ACF242006CFB17 /* HelloThere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloThere-Prefix.pch"; sourceTree = "<group>"; };
+		50797FD619ACF242006CFB17 /* _AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = _AppDelegate.h; sourceTree = "<group>"; };
+		50797FD719ACF242006CFB17 /* _AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _AppDelegate.m; sourceTree = "<group>"; };
+		50797FDA19ACF242006CFB17 /* HelloThere.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloThere.xcdatamodel; sourceTree = "<group>"; };
+		50797FDC19ACF242006CFB17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50797FE219ACF242006CFB17 /* HelloThereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloThereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50797FE319ACF242006CFB17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		50797FEC19ACF242006CFB17 /* HelloThereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloThereTests-Info.plist"; sourceTree = "<group>"; };
+		50797FEE19ACF242006CFB17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50797FF019ACF242006CFB17 /* HelloThereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloThereTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50797FBF19ACF242006CFB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50797FC819ACF242006CFB17 /* CoreGraphics.framework in Frameworks */,
+				50797FCC19ACF242006CFB17 /* CoreData.framework in Frameworks */,
+				50797FCA19ACF242006CFB17 /* UIKit.framework in Frameworks */,
+				50797FC619ACF242006CFB17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50797FDF19ACF242006CFB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50797FE419ACF242006CFB17 /* XCTest.framework in Frameworks */,
+				50797FE719ACF242006CFB17 /* CoreData.framework in Frameworks */,
+				50797FE619ACF242006CFB17 /* UIKit.framework in Frameworks */,
+				50797FE519ACF242006CFB17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50797FB919ACF242006CFB17 = {
+			isa = PBXGroup;
+			children = (
+				50797FCD19ACF242006CFB17 /* HelloThere */,
+				50797FEA19ACF242006CFB17 /* HelloThereTests */,
+				50797FC419ACF242006CFB17 /* Frameworks */,
+				50797FC319ACF242006CFB17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50797FC319ACF242006CFB17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50797FC219ACF242006CFB17 /* HelloThere.app */,
+				50797FE219ACF242006CFB17 /* HelloThereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50797FC419ACF242006CFB17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50797FC519ACF242006CFB17 /* Foundation.framework */,
+				50797FC719ACF242006CFB17 /* CoreGraphics.framework */,
+				50797FC919ACF242006CFB17 /* UIKit.framework */,
+				50797FCB19ACF242006CFB17 /* CoreData.framework */,
+				50797FE319ACF242006CFB17 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50797FCD19ACF242006CFB17 /* HelloThere */ = {
+			isa = PBXGroup;
+			children = (
+				50797FD619ACF242006CFB17 /* _AppDelegate.h */,
+				50797FD719ACF242006CFB17 /* _AppDelegate.m */,
+				50797FDC19ACF242006CFB17 /* Images.xcassets */,
+				50797FD919ACF242006CFB17 /* HelloThere.xcdatamodeld */,
+				50797FCE19ACF242006CFB17 /* Supporting Files */,
+			);
+			path = HelloThere;
+			sourceTree = "<group>";
+		};
+		50797FCE19ACF242006CFB17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50797FCF19ACF242006CFB17 /* HelloThere-Info.plist */,
+				50797FD019ACF242006CFB17 /* InfoPlist.strings */,
+				50797FD319ACF242006CFB17 /* main.m */,
+				50797FD519ACF242006CFB17 /* HelloThere-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50797FEA19ACF242006CFB17 /* HelloThereTests */ = {
+			isa = PBXGroup;
+			children = (
+				50797FF019ACF242006CFB17 /* HelloThereTests.m */,
+				50797FEB19ACF242006CFB17 /* Supporting Files */,
+			);
+			path = HelloThereTests;
+			sourceTree = "<group>";
+		};
+		50797FEB19ACF242006CFB17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50797FEC19ACF242006CFB17 /* HelloThereTests-Info.plist */,
+				50797FED19ACF242006CFB17 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50797FC119ACF242006CFB17 /* HelloThere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50797FF419ACF242006CFB17 /* Build configuration list for PBXNativeTarget "HelloThere" */;
+			buildPhases = (
+				50797FBE19ACF242006CFB17 /* Sources */,
+				50797FBF19ACF242006CFB17 /* Frameworks */,
+				50797FC019ACF242006CFB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloThere;
+			productName = HelloThere;
+			productReference = 50797FC219ACF242006CFB17 /* HelloThere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50797FE119ACF242006CFB17 /* HelloThereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50797FF719ACF242006CFB17 /* Build configuration list for PBXNativeTarget "HelloThereTests" */;
+			buildPhases = (
+				50797FDE19ACF242006CFB17 /* Sources */,
+				50797FDF19ACF242006CFB17 /* Frameworks */,
+				50797FE019ACF242006CFB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50797FE919ACF242006CFB17 /* PBXTargetDependency */,
+			);
+			name = HelloThereTests;
+			productName = HelloThereTests;
+			productReference = 50797FE219ACF242006CFB17 /* HelloThereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50797FBA19ACF242006CFB17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = _;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = debona;
+				TargetAttributes = {
+					50797FE119ACF242006CFB17 = {
+						TestTargetID = 50797FC119ACF242006CFB17;
+					};
+				};
+			};
+			buildConfigurationList = 50797FBD19ACF242006CFB17 /* Build configuration list for PBXProject "HelloThere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50797FB919ACF242006CFB17;
+			productRefGroup = 50797FC319ACF242006CFB17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50797FC119ACF242006CFB17 /* HelloThere */,
+				50797FE119ACF242006CFB17 /* HelloThereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50797FC019ACF242006CFB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50797FD219ACF242006CFB17 /* InfoPlist.strings in Resources */,
+				50797FDD19ACF242006CFB17 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50797FE019ACF242006CFB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50797FEF19ACF242006CFB17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50797FBE19ACF242006CFB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50797FD819ACF242006CFB17 /* _AppDelegate.m in Sources */,
+				50797FDB19ACF242006CFB17 /* HelloThere.xcdatamodeld in Sources */,
+				50797FD419ACF242006CFB17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50797FDE19ACF242006CFB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50797FF119ACF242006CFB17 /* HelloThereTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50797FE919ACF242006CFB17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50797FC119ACF242006CFB17 /* HelloThere */;
+			targetProxy = 50797FE819ACF242006CFB17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50797FD019ACF242006CFB17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50797FD119ACF242006CFB17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50797FED19ACF242006CFB17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50797FEE19ACF242006CFB17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50797FF219ACF242006CFB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50797FF319ACF242006CFB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50797FF519ACF242006CFB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloThere/HelloThere-Prefix.pch";
+				INFOPLIST_FILE = "HelloThere/HelloThere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50797FF619ACF242006CFB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloThere/HelloThere-Prefix.pch";
+				INFOPLIST_FILE = "HelloThere/HelloThere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		50797FF819ACF242006CFB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloThere.app/HelloThere";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloThere/HelloThere-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HelloThereTests/HelloThereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		50797FF919ACF242006CFB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloThere.app/HelloThere";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloThere/HelloThere-Prefix.pch";
+				INFOPLIST_FILE = "HelloThereTests/HelloThereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50797FBD19ACF242006CFB17 /* Build configuration list for PBXProject "HelloThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50797FF219ACF242006CFB17 /* Debug */,
+				50797FF319ACF242006CFB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50797FF419ACF242006CFB17 /* Build configuration list for PBXNativeTarget "HelloThere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50797FF519ACF242006CFB17 /* Debug */,
+				50797FF619ACF242006CFB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50797FF719ACF242006CFB17 /* Build configuration list for PBXNativeTarget "HelloThereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50797FF819ACF242006CFB17 /* Debug */,
+				50797FF919ACF242006CFB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		50797FD919ACF242006CFB17 /* HelloThere.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50797FDA19ACF242006CFB17 /* HelloThere.xcdatamodel */,
+			);
+			currentVersion = 50797FDA19ACF242006CFB17 /* HelloThere.xcdatamodel */;
+			path = HelloThere.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 50797FBA19ACF242006CFB17 /* Project object */;
+}
