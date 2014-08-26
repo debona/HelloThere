@@ -15,3 +15,18 @@
     #import <Foundation/Foundation.h>
     #import <CoreData/CoreData.h>
 #endif
+
+
+#pragma mark - Logger setup
+
+#import <CocoaLumberjack/DDLog.h>
+#import <CocoaLumberjack/DDASLLogger.h>
+#import <CocoaLumberjack/DDTTYLogger.h>
+
+#ifdef DEBUG
+    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#else
+    static const int ddLogLevel = LOG_LEVEL_ERROR;
+#endif
+
+
