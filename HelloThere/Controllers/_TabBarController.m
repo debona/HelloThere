@@ -8,25 +8,24 @@
 
 #import "_TabBarController.h"
 
+#import "_AccountViewController.h"
+
 @interface _TabBarController ()
 
 @end
 
 @implementation _TabBarController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    NSArray *controllers = @[
+                             [[_AccountViewController alloc] initWithDefaultNib],
+                             [[UIViewController alloc] init],
+                             ];
+    ((UIViewController *)(controllers.firstObject)).view.backgroundColor = [UIColor colorWithRed:0.06 green:0.44 blue:0.57 alpha:1];
+    self.viewControllers = controllers;
 }
 
 - (void)didReceiveMemoryWarning

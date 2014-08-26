@@ -26,6 +26,8 @@
 		507B7C3319ACFD81004B97DA /* _TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C3119ACFD81004B97DA /* _TabBarController.m */; };
 		507B7C3419ACFD81004B97DA /* _TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507B7C3219ACFD81004B97DA /* _TabBarController.xib */; };
 		507B7C3719ACFF74004B97DA /* UIViewController+withDefaultNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C3619ACFF74004B97DA /* UIViewController+withDefaultNib.m */; };
+		507B7C3B19AD4A2F004B97DA /* _AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C3919AD4A2F004B97DA /* _AccountViewController.m */; };
+		507B7C3C19AD4A2F004B97DA /* _AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507B7C3A19AD4A2F004B97DA /* _AccountViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		507B7C3219ACFD81004B97DA /* _TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = _TabBarController.xib; sourceTree = "<group>"; };
 		507B7C3519ACFF74004B97DA /* UIViewController+withDefaultNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+withDefaultNib.h"; sourceTree = "<group>"; };
 		507B7C3619ACFF74004B97DA /* UIViewController+withDefaultNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+withDefaultNib.m"; sourceTree = "<group>"; };
+		507B7C3819AD4A2F004B97DA /* _AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _AccountViewController.h; sourceTree = "<group>"; };
+		507B7C3919AD4A2F004B97DA /* _AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _AccountViewController.m; sourceTree = "<group>"; };
+		507B7C3A19AD4A2F004B97DA /* _AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = _AccountViewController.xib; sourceTree = "<group>"; };
 		A002CC68C21C4090BBA2B49D /* Pods-HelloThere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloThere.xcconfig"; path = "Pods/Pods-HelloThere.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +104,9 @@
 				507B7C3019ACFD81004B97DA /* _TabBarController.h */,
 				507B7C3119ACFD81004B97DA /* _TabBarController.m */,
 				507B7C3219ACFD81004B97DA /* _TabBarController.xib */,
+				507B7C3819AD4A2F004B97DA /* _AccountViewController.h */,
+				507B7C3919AD4A2F004B97DA /* _AccountViewController.m */,
+				507B7C3A19AD4A2F004B97DA /* _AccountViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -284,6 +292,7 @@
 			files = (
 				507B7C3419ACFD81004B97DA /* _TabBarController.xib in Resources */,
 				50797FD219ACF242006CFB17 /* InfoPlist.strings in Resources */,
+				507B7C3C19AD4A2F004B97DA /* _AccountViewController.xib in Resources */,
 				50797FDD19ACF242006CFB17 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,6 +347,7 @@
 			files = (
 				50797FD819ACF242006CFB17 /* _AppDelegate.m in Sources */,
 				507B7C3719ACFF74004B97DA /* UIViewController+withDefaultNib.m in Sources */,
+				507B7C3B19AD4A2F004B97DA /* _AccountViewController.m in Sources */,
 				507B7C3319ACFD81004B97DA /* _TabBarController.m in Sources */,
 				50797FDB19ACF242006CFB17 /* HelloThere.xcdatamodeld in Sources */,
 				50797FD419ACF242006CFB17 /* main.m in Sources */,
