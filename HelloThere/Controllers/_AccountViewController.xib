@@ -9,8 +9,10 @@
                 <outlet property="colorCell" destination="I0b-7X-13V" id="PFB-7E-kzl"/>
                 <outlet property="colorTeaser" destination="HuN-Gz-T0p" id="xpY-kL-Yaq"/>
                 <outlet property="fullnameCell" destination="tEE-AY-Oau" id="44h-ev-jVH"/>
+                <outlet property="fullnameLabel" destination="1B1-UR-YcA" id="95b-Jx-bRc"/>
                 <outlet property="photo" destination="XJg-NE-B8D" id="oN2-do-3y3"/>
                 <outlet property="usernameCell" destination="6Sd-jy-JVJ" id="ETs-l6-4hw"/>
+                <outlet property="usernameLabel" destination="iDR-Ur-bVS" id="DY6-Na-s4A"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

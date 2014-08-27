@@ -9,8 +9,9 @@
 #import "_AccountViewController.h"
 
 #import "UIView+endEditingOnTap.h"
-
 #import "IonIcons.h"
+
+#import "_User.h"
 
 @interface _AccountViewController () <UITableViewDataSource>
 
@@ -20,8 +21,12 @@
 @property (weak, nonatomic) IBOutlet UITableViewCell *fullnameCell;
 @property (weak, nonatomic) IBOutlet UITableViewCell *colorCell;
 
+
+@property (weak, nonatomic) IBOutlet UITextField *usernameLabel;
+@property (weak, nonatomic) IBOutlet UITextField *fullnameLabel;
 @property (weak, nonatomic) IBOutlet UITextField *colorTeaser;
 
+@property (strong, nonatomic) _User *user;
 @property (strong, nonatomic) NSArray *cells;
 
 @end
@@ -49,6 +54,8 @@
                    ];
 
     [self.view endEditingOnTap];
+    
+    self.user = [_User thomas];
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,6 +64,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+
+    self.photo.image = [UIImage imageNamed:self.user.photo];
+    self.usernameLabel.text = self.user.username;
+    self.fullnameLabel.text = self.user.fullname;
+    self.colorTeaser.backgroundColor = self.user.color;
+}
 
 #pragma mark - UITableViewDataSource
 
