@@ -9,6 +9,7 @@
 #import "_TabBarController.h"
 
 #import "_AccountViewController.h"
+#import "_DiscoverViewController.h"
 
 @interface _TabBarController ()
 
@@ -22,9 +23,9 @@
     
     NSArray *controllers = @[
                              [[_AccountViewController alloc] initWithDefaultNib],
-                             [[UIViewController alloc] init],
+                             [[UINavigationController alloc] initWithRootViewController:[[_DiscoverViewController alloc] initWithDefaultNib]],
                              ];
-    ((UIViewController *)(controllers.firstObject)).view.backgroundColor = [UIColor colorWithRed:0.06 green:0.44 blue:0.57 alpha:1];
+    
     self.viewControllers = controllers;
 }
 

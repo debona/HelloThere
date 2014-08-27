@@ -30,6 +30,10 @@
 		507B7C3C19AD4A2F004B97DA /* _AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507B7C3A19AD4A2F004B97DA /* _AccountViewController.xib */; };
 		507B7C3F19ADEA5F004B97DA /* UIView+endEditingOnTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C3E19ADEA5F004B97DA /* UIView+endEditingOnTap.m */; };
 		507B7C4219AE0664004B97DA /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C4119AE0664004B97DA /* _User.m */; };
+		507B7C4619AE2207004B97DA /* _DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C4419AE2207004B97DA /* _DiscoverViewController.m */; };
+		507B7C4719AE2207004B97DA /* _DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507B7C4519AE2207004B97DA /* _DiscoverViewController.xib */; };
+		507B7C4B19AE240C004B97DA /* _PlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C4919AE240C004B97DA /* _PlaceCell.m */; };
+		507B7C4C19AE240D004B97DA /* _PlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507B7C4A19AE240C004B97DA /* _PlaceCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,12 @@
 		507B7C3E19ADEA5F004B97DA /* UIView+endEditingOnTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+endEditingOnTap.m"; sourceTree = "<group>"; };
 		507B7C4019AE0664004B97DA /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _User.h; sourceTree = "<group>"; };
 		507B7C4119AE0664004B97DA /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _User.m; sourceTree = "<group>"; };
+		507B7C4319AE2207004B97DA /* _DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DiscoverViewController.h; sourceTree = "<group>"; };
+		507B7C4419AE2207004B97DA /* _DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DiscoverViewController.m; sourceTree = "<group>"; };
+		507B7C4519AE2207004B97DA /* _DiscoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = _DiscoverViewController.xib; sourceTree = "<group>"; };
+		507B7C4819AE240C004B97DA /* _PlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _PlaceCell.h; sourceTree = "<group>"; };
+		507B7C4919AE240C004B97DA /* _PlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _PlaceCell.m; sourceTree = "<group>"; };
+		507B7C4A19AE240C004B97DA /* _PlaceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = _PlaceCell.xib; sourceTree = "<group>"; };
 		A002CC68C21C4090BBA2B49D /* Pods-HelloThere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloThere.xcconfig"; path = "Pods/Pods-HelloThere.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +123,9 @@
 				507B7C3819AD4A2F004B97DA /* _AccountViewController.h */,
 				507B7C3919AD4A2F004B97DA /* _AccountViewController.m */,
 				507B7C3A19AD4A2F004B97DA /* _AccountViewController.xib */,
+				507B7C4319AE2207004B97DA /* _DiscoverViewController.h */,
+				507B7C4419AE2207004B97DA /* _DiscoverViewController.m */,
+				507B7C4519AE2207004B97DA /* _DiscoverViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -120,6 +133,9 @@
 		50479DF919ACFB1000971B02 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				507B7C4819AE240C004B97DA /* _PlaceCell.h */,
+				507B7C4919AE240C004B97DA /* _PlaceCell.m */,
+				507B7C4A19AE240C004B97DA /* _PlaceCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -303,6 +319,8 @@
 				507B7C3419ACFD81004B97DA /* _TabBarController.xib in Resources */,
 				50797FD219ACF242006CFB17 /* InfoPlist.strings in Resources */,
 				507B7C3C19AD4A2F004B97DA /* _AccountViewController.xib in Resources */,
+				507B7C4C19AE240D004B97DA /* _PlaceCell.xib in Resources */,
+				507B7C4719AE2207004B97DA /* _DiscoverViewController.xib in Resources */,
 				50797FDD19ACF242006CFB17 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,11 +374,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				507B7C4219AE0664004B97DA /* _User.m in Sources */,
+				507B7C4619AE2207004B97DA /* _DiscoverViewController.m in Sources */,
 				50797FD819ACF242006CFB17 /* _AppDelegate.m in Sources */,
 				507B7C3719ACFF74004B97DA /* UIViewController+withDefaultNib.m in Sources */,
 				507B7C3F19ADEA5F004B97DA /* UIView+endEditingOnTap.m in Sources */,
 				507B7C3B19AD4A2F004B97DA /* _AccountViewController.m in Sources */,
 				507B7C3319ACFD81004B97DA /* _TabBarController.m in Sources */,
+				507B7C4B19AE240C004B97DA /* _PlaceCell.m in Sources */,
 				50797FDB19ACF242006CFB17 /* HelloThere.xcdatamodeld in Sources */,
 				50797FD419ACF242006CFB17 /* main.m in Sources */,
 			);
