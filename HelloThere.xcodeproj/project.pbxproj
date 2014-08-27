@@ -29,6 +29,7 @@
 		507B7C3B19AD4A2F004B97DA /* _AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C3919AD4A2F004B97DA /* _AccountViewController.m */; };
 		507B7C3C19AD4A2F004B97DA /* _AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507B7C3A19AD4A2F004B97DA /* _AccountViewController.xib */; };
 		507B7C3F19ADEA5F004B97DA /* UIView+endEditingOnTap.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C3E19ADEA5F004B97DA /* UIView+endEditingOnTap.m */; };
+		507B7C4219AE0664004B97DA /* _User.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C4119AE0664004B97DA /* _User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		507B7C3A19AD4A2F004B97DA /* _AccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = _AccountViewController.xib; sourceTree = "<group>"; };
 		507B7C3D19ADEA5F004B97DA /* UIView+endEditingOnTap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+endEditingOnTap.h"; sourceTree = "<group>"; };
 		507B7C3E19ADEA5F004B97DA /* UIView+endEditingOnTap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+endEditingOnTap.m"; sourceTree = "<group>"; };
+		507B7C4019AE0664004B97DA /* _User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _User.h; sourceTree = "<group>"; };
+		507B7C4119AE0664004B97DA /* _User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _User.m; sourceTree = "<group>"; };
 		A002CC68C21C4090BBA2B49D /* Pods-HelloThere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloThere.xcconfig"; path = "Pods/Pods-HelloThere.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +127,8 @@
 		50479DFA19ACFB1700971B02 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				507B7C4019AE0664004B97DA /* _User.h */,
+				507B7C4119AE0664004B97DA /* _User.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -350,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				507B7C4219AE0664004B97DA /* _User.m in Sources */,
 				50797FD819ACF242006CFB17 /* _AppDelegate.m in Sources */,
 				507B7C3719ACFF74004B97DA /* UIViewController+withDefaultNib.m in Sources */,
 				507B7C3F19ADEA5F004B97DA /* UIView+endEditingOnTap.m in Sources */,
