@@ -14,5 +14,15 @@
 
 @implementation _User
 
++(_User *)thomas
+{
+    _User *thomas = [[_User alloc] init];
+    thomas.photo = @"Thomas";
+    thomas.username = @"debona";
+    thomas.fullname = @"Thomas DE BONA";
+    thomas.color = [UIColor blackColor];
+    
+    return thomas;
+}
 
 @end

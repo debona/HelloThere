@@ -15,4 +15,8 @@
 @property (strong, nonatomic) NSString *fullname;
 @property (strong, nonatomic) UIColor *color;
 
+
++(_User *)thomas;
+
+
 @end
