@@ -37,11 +37,7 @@
 {
     [super viewDidLoad];
     
-    self.tabBarItem.title = @"Me";
-    self.tabBarItem.image = [IonIcons imageWithIcon:icon_ios7_person_outline
-                                            iconColor:[UIColor whiteColor]
-                                             iconSize:46
-                                            imageSize:CGSizeMake(40, 40)];
+    [[self navigationController] setNavigationBarHidden:YES animated:NO];
     
     self.photo.image = [IonIcons imageWithIcon:icon_ios7_person_outline
                                           iconColor:[UIColor whiteColor]

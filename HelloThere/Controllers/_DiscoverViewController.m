@@ -25,12 +25,6 @@ static NSString * const _PlaceCellIdentifier = @"_PlaceCellIdentifier";
 {
     [super viewDidLoad];
     
-    self.navigationController.tabBarItem.title = @"Discover";
-    self.navigationController.tabBarItem.image = [IonIcons imageWithIcon:icon_ios7_world_outline
-                                                               iconColor:[UIColor whiteColor]
-                                                                iconSize:40
-                                                               imageSize:CGSizeMake(40, 40)];
-    
     self.places = @[
                        @{
                            @"name": @"Nice, France",
