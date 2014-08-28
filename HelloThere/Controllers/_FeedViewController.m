@@ -9,16 +9,18 @@
 #import "_FeedViewController.h"
 
 #import "_TextMessageCell.h"
+#import "_Place.h"
+
 
 static NSString * const TextMessageCellIdentifier = @"TextMessageCellIdentifier";
 
 @interface _FeedViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (strong, nonatomic) NSArray *messages;
-
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
+
 
 @implementation _FeedViewController
 
@@ -26,7 +28,7 @@ static NSString * const TextMessageCellIdentifier = @"TextMessageCellIdentifier"
 {
     [super viewDidLoad];
     
-    self.messages = @[
+    self.messages = [@[
                         @"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum consectetur justo, sed vehicula justo gravida id. Suspendisse a maximus elit. Proin sagittis risus lectus, quis tristique felis vestibulum id.",
                         @"Curabitur sed lobortis ante.",
                         @"Nullam posuere pulvinar justo, vitae sollicitudin leo ultrices ut.",
@@ -48,9 +50,11 @@ static NSString * const TextMessageCellIdentifier = @"TextMessageCellIdentifier"
                         @"Vivamus ultricies accumsan vulputate. Suspendisse potenti. Nullam pharetra metus orci, eget interdum diam viverra ut. Nulla dapibus mattis metus a consequat.",
                         @"Morbi sed dui felis.",
                         @"Cras condimentum condimentum felis. Fusce vitae finibus ipsum.",
-                      ];
+                      ] mutableCopy];
     
     [self.tableView registerNib:[UINib nibWithNibName:@"_TextMessageCell" bundle:nil] forCellReuseIdentifier:TextMessageCellIdentifier];
+    
+    self.nameLabel.text = self.place.name;
 }
 
 - (void)didReceiveMemoryWarning

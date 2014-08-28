@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class _Place;
+
 @interface _FeedViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+
+@property (strong, nonatomic) _Place *place;
 
 @end

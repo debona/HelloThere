@@ -72,7 +72,11 @@ static NSString * const _PlaceCellIdentifier = @"_PlaceCellIdentifier";
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
+    _Place *place = [self.places objectAtIndex:[indexPath row]];
+    
     _FeedViewController *feedController = [[_FeedViewController alloc] initWithDefaultNib];
+    feedController.place = place;
+
     [self.navigationController pushViewController:feedController animated:YES];
 }
 
