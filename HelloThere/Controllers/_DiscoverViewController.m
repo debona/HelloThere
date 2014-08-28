@@ -11,6 +11,8 @@
 #import "_PlaceCell.h"
 #import "IonIcons.h"
 
+#import "_FeedViewController.h"
+
 static NSString * const _PlaceCellIdentifier = @"_PlaceCellIdentifier";
 
 @interface _DiscoverViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -117,6 +119,9 @@ static NSString * const _PlaceCellIdentifier = @"_PlaceCellIdentifier";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    _FeedViewController *feedController = [[_FeedViewController alloc] initWithDefaultNib];
+    [self.navigationController pushViewController:feedController animated:YES];
 }
 
 @end
