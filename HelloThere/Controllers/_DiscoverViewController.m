@@ -12,6 +12,7 @@
 #import "IonIcons.h"
 
 #import "_FeedViewController.h"
+#import "_Place.h"
 
 static NSString * const _PlaceCellIdentifier = @"_PlaceCellIdentifier";
 
@@ -27,56 +28,7 @@ static NSString * const _PlaceCellIdentifier = @"_PlaceCellIdentifier";
 {
     [super viewDidLoad];
     
-    self.places = @[
-                       @{
-                           @"name": @"Nice, France",
-                           @"latitude": @43.7048037,
-                           @"longitude": @7.2534179,
-                           @"radius": @5000,
-                        },
-                        @{
-                           @"name": @"Paris, France",
-                           @"latitude": @48.8588589,
-                           @"longitude": @2.3470599,
-                           @"radius": @10000,
-                        },
-                        @{
-                           @"name": @"London, United Kingdom",
-                           @"latitude": @51.5286416,
-                           @"longitude": @-0.1015987,
-                           @"radius": @10000,
-                        },
-                        @{
-                           @"name": @"Dublin, Ireland",
-                           @"latitude": @53.3243201,
-                           @"longitude": @-6.251695,
-                           @"radius": @5000,
-                        },
-                        @{
-                           @"name": @"Geneva, Switzerland",
-                           @"latitude": @46.204705,
-                           @"longitude": @6.1431301,
-                           @"radius": @3000,
-                        },
-                        @{
-                           @"name": @"Berlin, Germany",
-                           @"latitude": @52.5075419,
-                           @"longitude": @13.4261419,
-                           @"radius": @10000,
-                        },
-                        @{
-                           @"name": @"Amsterdam, The Netherlands",
-                           @"latitude": @52.3747157,
-                           @"longitude": @4.8986167,
-                           @"radius": @4000,
-                        },
-                        @{
-                           @"name": @"Stockholm, Sweden",
-                           @"latitude": @59.3261419,
-                           @"longitude": @17.9875456,
-                           @"radius": @5000,
-                        },
-                    ];
+    self.places = [_Place all];
 }
 
 - (void)didReceiveMemoryWarning
@@ -106,8 +58,8 @@ static NSString * const _PlaceCellIdentifier = @"_PlaceCellIdentifier";
         cell = [tableView dequeueReusableCellWithIdentifier:_PlaceCellIdentifier];
     }
 
-    NSDictionary *place = [self.places objectAtIndex:[indexPath row]];
-    cell.nameLabel.text = [place objectForKey:@"name"];
+    _Place *place = [self.places objectAtIndex:[indexPath row]];
+    cell.nameLabel.text = place.name;
 
     return cell;
 }

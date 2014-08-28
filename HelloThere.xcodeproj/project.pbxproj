@@ -38,6 +38,7 @@
 		50BC777719AE569D00CA3E62 /* _FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC777519AE569D00CA3E62 /* _FeedViewController.xib */; };
 		50BC777B19AE58C800CA3E62 /* _TextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC777919AE58C800CA3E62 /* _TextMessageCell.m */; };
 		50BC777C19AE58C800CA3E62 /* _TextMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC777A19AE58C800CA3E62 /* _TextMessageCell.xib */; };
+		50BC777F19AFDE4E00CA3E62 /* _Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC777E19AFDE4E00CA3E62 /* _Place.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +95,8 @@
 		50BC777819AE58C800CA3E62 /* _TextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _TextMessageCell.h; sourceTree = "<group>"; };
 		50BC777919AE58C800CA3E62 /* _TextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _TextMessageCell.m; sourceTree = "<group>"; };
 		50BC777A19AE58C800CA3E62 /* _TextMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = _TextMessageCell.xib; sourceTree = "<group>"; };
+		50BC777D19AFDE4E00CA3E62 /* _Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Place.h; sourceTree = "<group>"; };
+		50BC777E19AFDE4E00CA3E62 /* _Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Place.m; sourceTree = "<group>"; };
 		A002CC68C21C4090BBA2B49D /* Pods-HelloThere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloThere.xcconfig"; path = "Pods/Pods-HelloThere.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +164,8 @@
 			children = (
 				507B7C4019AE0664004B97DA /* _User.h */,
 				507B7C4119AE0664004B97DA /* _User.m */,
+				50BC777D19AFDE4E00CA3E62 /* _Place.h */,
+				50BC777E19AFDE4E00CA3E62 /* _Place.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -403,6 +408,7 @@
 				507B7C4B19AE240C004B97DA /* _PlaceCell.m in Sources */,
 				50797FDB19ACF242006CFB17 /* HelloThere.xcdatamodeld in Sources */,
 				50797FD419ACF242006CFB17 /* main.m in Sources */,
+				50BC777F19AFDE4E00CA3E62 /* _Place.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
