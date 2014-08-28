@@ -34,6 +34,10 @@
 		507B7C4719AE2207004B97DA /* _DiscoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507B7C4519AE2207004B97DA /* _DiscoverViewController.xib */; };
 		507B7C4B19AE240C004B97DA /* _PlaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 507B7C4919AE240C004B97DA /* _PlaceCell.m */; };
 		507B7C4C19AE240D004B97DA /* _PlaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 507B7C4A19AE240C004B97DA /* _PlaceCell.xib */; };
+		50BC777619AE569D00CA3E62 /* _FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC777419AE569D00CA3E62 /* _FeedViewController.m */; };
+		50BC777719AE569D00CA3E62 /* _FeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC777519AE569D00CA3E62 /* _FeedViewController.xib */; };
+		50BC777B19AE58C800CA3E62 /* _TextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC777919AE58C800CA3E62 /* _TextMessageCell.m */; };
+		50BC777C19AE58C800CA3E62 /* _TextMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50BC777A19AE58C800CA3E62 /* _TextMessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +88,12 @@
 		507B7C4819AE240C004B97DA /* _PlaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _PlaceCell.h; sourceTree = "<group>"; };
 		507B7C4919AE240C004B97DA /* _PlaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _PlaceCell.m; sourceTree = "<group>"; };
 		507B7C4A19AE240C004B97DA /* _PlaceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = _PlaceCell.xib; sourceTree = "<group>"; };
+		50BC777319AE569D00CA3E62 /* _FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FeedViewController.h; sourceTree = "<group>"; };
+		50BC777419AE569D00CA3E62 /* _FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FeedViewController.m; sourceTree = "<group>"; };
+		50BC777519AE569D00CA3E62 /* _FeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = _FeedViewController.xib; sourceTree = "<group>"; };
+		50BC777819AE58C800CA3E62 /* _TextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _TextMessageCell.h; sourceTree = "<group>"; };
+		50BC777919AE58C800CA3E62 /* _TextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _TextMessageCell.m; sourceTree = "<group>"; };
+		50BC777A19AE58C800CA3E62 /* _TextMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = _TextMessageCell.xib; sourceTree = "<group>"; };
 		A002CC68C21C4090BBA2B49D /* Pods-HelloThere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloThere.xcconfig"; path = "Pods/Pods-HelloThere.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +136,9 @@
 				507B7C4319AE2207004B97DA /* _DiscoverViewController.h */,
 				507B7C4419AE2207004B97DA /* _DiscoverViewController.m */,
 				507B7C4519AE2207004B97DA /* _DiscoverViewController.xib */,
+				50BC777319AE569D00CA3E62 /* _FeedViewController.h */,
+				50BC777419AE569D00CA3E62 /* _FeedViewController.m */,
+				50BC777519AE569D00CA3E62 /* _FeedViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -136,6 +149,9 @@
 				507B7C4819AE240C004B97DA /* _PlaceCell.h */,
 				507B7C4919AE240C004B97DA /* _PlaceCell.m */,
 				507B7C4A19AE240C004B97DA /* _PlaceCell.xib */,
+				50BC777819AE58C800CA3E62 /* _TextMessageCell.h */,
+				50BC777919AE58C800CA3E62 /* _TextMessageCell.m */,
+				50BC777A19AE58C800CA3E62 /* _TextMessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -316,10 +332,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BC777719AE569D00CA3E62 /* _FeedViewController.xib in Resources */,
 				507B7C3419ACFD81004B97DA /* _TabBarController.xib in Resources */,
 				50797FD219ACF242006CFB17 /* InfoPlist.strings in Resources */,
 				507B7C3C19AD4A2F004B97DA /* _AccountViewController.xib in Resources */,
 				507B7C4C19AE240D004B97DA /* _PlaceCell.xib in Resources */,
+				50BC777C19AE58C800CA3E62 /* _TextMessageCell.xib in Resources */,
 				507B7C4719AE2207004B97DA /* _DiscoverViewController.xib in Resources */,
 				50797FDD19ACF242006CFB17 /* Images.xcassets in Resources */,
 			);
@@ -374,8 +392,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				507B7C4219AE0664004B97DA /* _User.m in Sources */,
+				50BC777B19AE58C800CA3E62 /* _TextMessageCell.m in Sources */,
 				507B7C4619AE2207004B97DA /* _DiscoverViewController.m in Sources */,
 				50797FD819ACF242006CFB17 /* _AppDelegate.m in Sources */,
+				50BC777619AE569D00CA3E62 /* _FeedViewController.m in Sources */,
 				507B7C3719ACFF74004B97DA /* UIViewController+withDefaultNib.m in Sources */,
 				507B7C3F19ADEA5F004B97DA /* UIView+endEditingOnTap.m in Sources */,
 				507B7C3B19AD4A2F004B97DA /* _AccountViewController.m in Sources */,

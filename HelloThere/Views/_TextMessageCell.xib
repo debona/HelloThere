@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextMessageCellIdentifier" rowHeight="75" id="KGk-i7-Jjw" customClass="_TextMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="johny" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xI-L3-yFR">
+                        <rect key="frame" x="10" y="6" width="214" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loram posuere pulvinar justo, vitae sollicitudin leo ultrices ut." lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="0vD-5x-Yph">
+                        <rect key="frame" x="20" y="23" width="280" height="45"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2h ago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnP-CN-pEP">
+                        <rect key="frame" x="239" y="6" width="71" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7xI-L3-yFR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="2bv-em-2ji"/>
+                    <constraint firstItem="XnP-CN-pEP" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailing" constant="-10" id="3wb-zI-ITU"/>
+                    <constraint firstItem="0vD-5x-Yph" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailing" constant="-20" id="5hI-jq-vFC"/>
+                    <constraint firstItem="0vD-5x-Yph" firstAttribute="top" secondItem="7xI-L3-yFR" secondAttribute="bottom" id="LAH-4w-pBa"/>
+                    <constraint firstItem="0vD-5x-Yph" firstAttribute="top" secondItem="XnP-CN-pEP" secondAttribute="bottom" id="TsL-i8-acY"/>
+                    <constraint firstItem="0vD-5x-Yph" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="U5R-3O-sGg"/>
+                    <constraint firstItem="XnP-CN-pEP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="dP4-3d-rEn"/>
+                    <constraint firstAttribute="bottom" secondItem="0vD-5x-Yph" secondAttribute="bottom" constant="6" id="fNC-2O-d6k"/>
+                    <constraint firstItem="7xI-L3-yFR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="l7D-qT-s0Z"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.38117894499999999" green="0.26550208749999998" blue="0.67978614270000004" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="dateLabel" destination="XnP-CN-pEP" id="zx2-G1-v3k"/>
+                <outlet property="messageLabel" destination="0vD-5x-Yph" id="wuX-NQ-6ph"/>
+                <outlet property="usernameLabel" destination="7xI-L3-yFR" id="s5S-FS-vn0"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
